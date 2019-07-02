@@ -212,4 +212,4 @@ def test(data_train):
     drawDataMap(dataArr,labelArr,b,alphas)
 
 if __name__=='__main__':
-    test("E:\\ML\\SVM\\testSet_line.txt")
+    test("E:\\ML\\SVM\\testSet_FSY.txt")
