@@ -206,6 +206,11 @@ def kernelTrans(X,A,kTup):
 
 
 def test(data_train):
+    """
+    测试并画图
+    :param data_train:
+    :return:
+    """
     dataArr, labelArr = loadDataSet(data_train)  # 读取训练数据
     b, alphas = smoP(dataArr, labelArr, 200, 0.0001, 100, ('lin', 1.3))  # 通过SMO算法得到b和alpha
     print(alphas[alphas>0])
