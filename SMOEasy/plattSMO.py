@@ -219,3 +219,4 @@ def test(data_train):
 if __name__=='__main__':
     test("E:\\ML\\SVM\\testSet_line.txt")
     test("E:\\ML\\SVM\\testData.txt")
+    test("E:\\ML\\SVM\\testtest.txt")
